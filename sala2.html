@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turma 102 - Prof. Pedro Salvato</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+        body {
+            font-family: 'Nunito', Arial, sans-serif;
+            background-color: #fcfcfb;
+            color: #333333;
+            margin: 0;
+            padding: 4rem 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            max-width: 700px;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            color: #555555;
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        main {
+            width: 100%;
+            max-width: 600px;
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 1.4rem;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 0.5rem;
+        }
+
+        /* Cartão de Download Estilizado */
+        .card-download {
+            display: flex;
+            align-items: center;
+            background-color: #f8fbff;
+            border: 1px solid #d4e6f1;
+            padding: 1.2rem;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #333333;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card-download:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(74, 144, 226, 0.15);
+        }
+
+        .icon {
+            font-size: 2rem;
+            margin-right: 1.2rem;
+        }
+
+        .text-container strong {
+            display: block;
+            color: #2c3e50;
+            font-size: 1.1rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .text-container span {
+            color: #777777;
+            font-size: 0.95rem;
+        }
+
+        .btn-voltar {
+            margin-top: 2.5rem;
+            color: #4A90E2;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .btn-voltar:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Turma 2 - Operador de processos logísticos</h1>
+        <p>Bem-vindo à página da sua turma! Abaixo você encontra os arquivos e materiais para os nossos encontros.</p>
+    </header>
+
+    <main>
+        <h2>Materiais da Aula</h2>
+
+        <a href="atividade_6.docx" download class="card-download">
+            <span class="icon">📥</span>
+            <div class="text-container">
+                <strong>Atividade 06</strong>
+                <span>Clique aqui para baixar o documento (PDF)</span>
+            </div>
+        </a>
+
+        <!-- Bloco de texto para edição 
+         <a href="LINK_DO_SEU_ARQUIVO_AQUI" download class="card-download">
+            <span class="icon">📥</span>
+            <div class="text-container">
+                <strong>Atividade 06</strong>
+                <span>Clique aqui para baixar o documento (PDF)</span>
+            </div>
+        </a>
+        -->
+    </main>
+
+    <a href="index.html" class="btn-voltar">← Voltar para o início</a>
+
+</body>
+</html>
